@@ -1,0 +1,87 @@
+.headerdivforerror {
+    background-image: url('https://sb-clean-blog.startbootstrap.com/assets/img/about-bg.jpg');
+    width: 100%;
+    min-height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+nav {
+    width: 100%;
+    min-height: 20vh;
+}
+
+.forstart {
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.forstart h3 {
+    color: black;
+    text-decoration: none;
+}
+
+.generaldivnavhome {
+    padding-top: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightsidenavhome {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.rightsidenavhome h5 {
+    color: black;
+}
+
+.fa-solid {
+    display: none;
+}
+
+#hiddenlist {
+    display: none;
+}
+
+#hiddenlist h5 {
+    color: black;
+    text-decoration: none;
+}
+
+.active {
+    display: flex !important;
+    flex-direction: column;
+    float: right;
+    background-color: white;
+    width: 20vw;
+    margin-top: -50px;
+    min-height: 25vh;
+    gap: 20px;
+    transition: 2s;
+    align-items: center;
+}
+
+@media screen and (max-width:750px) {
+    .fa-solid {
+        display: block;
+        padding-right: 30px;
+    }
+
+    .rightsidenavhome {
+        display: none;
+    }
+
+    .generaldivnavhome {
+        background-color: white;
+    }
+
+}
